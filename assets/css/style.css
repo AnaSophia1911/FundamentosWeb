@@ -1,0 +1,81 @@
+/*Estilização da página index.html*/
+
+
+.index{
+    background-color: rgb(238, 191, 63);
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.center{
+    text-align: center;
+}
+.centerimg{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    text-align: center;
+}
+
+.icon{
+    width: 35px; 
+    height: 35px;
+}
+
+.container{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+li{
+    list-style-type: none;
+}
+
+.menuperks{
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    text-align: center;
+}
+
+.menuperks li{
+    margin: 8px;
+}
+    
+.icon2{
+    width: 115px; 
+    height: 115px;
+}
+
+.border{
+    border-width: 7px;
+    border-color: black;
+    border-style: solid;
+}
+
+.imagem{
+    width: 500px;
+    height: 300px;
+}
+
+.gobblemenu li{
+    margin: 8px;
+
+}
+
+.gobblemenu img{
+    width: 150px;
+    height: 150px;
+}
+
+.gobblemenu{
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    text-align: center;
+   justify-content: center;
+}
+.margin8{
+    margin: 8px;
+}
